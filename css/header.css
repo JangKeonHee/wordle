@@ -1,0 +1,23 @@
+header {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-icons img {
+  padding-top: 10px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.header-icons-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

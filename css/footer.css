@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 15px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid gray;
+  border-radius: 10px;
+  background-color: lightgray;
+  width: 40px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.keyboard-block__spc {
+  width: 70px;
+}
+
+.keyboard-block__spc img {
+  width: 60px;
+  height: 40px;
+}
